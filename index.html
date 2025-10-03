@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Malupit na website</title>
+
+</head>
+
+<style type="text/css">
+    .container {
+        width: 90%;
+        /* Instead of a fixed pixel width */
+        margin: 0 auto;
+        /* To center the container */
+    }
+
+    img {
+        max-width: 100%;
+        /* Ensures images scale down and don't overflow */
+        height: auto;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    body {
+        background-image: url('speed.gif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #myWelcome {}
+
+    #welcome {
+        z-index: 2;
+        position: relative;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        top: -300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #button {
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 4px 2px;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 12px;
+        top: -300px;
+        position: relative;
+    }
+
+    #button:hover {
+        background-color: rgb(0, 255, 34);
+        color: rgb(250, 5, 5);
+
+    }
+
+    #myButton {
+        transition-duration: 0.4s;
+    }
+
+    .speed {
+        animation: example 4s infinite;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+</style>
+
+<body>
+    <center>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <td><img src="speed.gif" alt="speed" id="myWelcome" id="myButton" width="500" height="auto" boarder="5"
+                style="border-color: rgb(0, 0, 0); border-radius: 4%;" class="speed">
+
+        </td>
+
+    </center>
+    <div style="
+    width: 100%;
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;">
+        <div>
+            <h1 id="welcome" style="color:rgb(23, 255, 2);">Welcome sa website na malopit</h1>
+            <center>
+                <button id="button"
+                    style="background-color: rgb(10, 138, 52); padding: 10px 10px; font-size: 20px; cursor: pointer;"
+                    onclick="window.location.href='https://youtu.be/xvFZjo5PgG0?si=7R7CevTlKY2JrMJk'">Pindutin
+                    mo ako plsss🥰 </button>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
